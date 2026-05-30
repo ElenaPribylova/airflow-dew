@@ -1,0 +1,12 @@
+[2026-05-18T05:32:59.226+0000] {processor.py:161} INFO - Started process (PID=7995) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_datasets.py
+[2026-05-18T05:32:59.229+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_datasets.py for tasks to queue
+[2026-05-18T05:32:59.232+0000] {logging_mixin.py:188} INFO - [2026-05-18T05:32:59.232+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_datasets.py
+[2026-05-18T05:32:59.249+0000] {processor.py:840} INFO - DAG(s) 'dataset_consumes_1_never_scheduled', 'dataset_consumes_1_and_2', 'dataset_consumes_1', 'dataset_produces_2', 'dataset_produces_1', 'dataset_consumes_unknown_never_scheduled' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_datasets.py
+[2026-05-18T05:32:59.303+0000] {logging_mixin.py:188} INFO - [2026-05-18T05:32:59.303+0000] {dag.py:3047} INFO - Sync 6 DAGs
+[2026-05-18T05:32:59.338+0000] {logging_mixin.py:188} INFO - [2026-05-18T05:32:59.338+0000] {dag.py:3834} INFO - Setting next_dagrun for dataset_consumes_1 to None, run_after=None
+[2026-05-18T05:32:59.343+0000] {logging_mixin.py:188} INFO - [2026-05-18T05:32:59.343+0000] {dag.py:3834} INFO - Setting next_dagrun for dataset_consumes_1_and_2 to None, run_after=None
+[2026-05-18T05:32:59.346+0000] {logging_mixin.py:188} INFO - [2026-05-18T05:32:59.345+0000] {dag.py:3834} INFO - Setting next_dagrun for dataset_consumes_1_never_scheduled to None, run_after=None
+[2026-05-18T05:32:59.348+0000] {logging_mixin.py:188} INFO - [2026-05-18T05:32:59.348+0000] {dag.py:3834} INFO - Setting next_dagrun for dataset_consumes_unknown_never_scheduled to None, run_after=None
+[2026-05-18T05:32:59.353+0000] {logging_mixin.py:188} INFO - [2026-05-18T05:32:59.352+0000] {dag.py:3834} INFO - Setting next_dagrun for dataset_produces_1 to 2026-05-17 00:00:00+00:00, run_after=2026-05-18 00:00:00+00:00
+[2026-05-18T05:32:59.356+0000] {logging_mixin.py:188} INFO - [2026-05-18T05:32:59.355+0000] {dag.py:3834} INFO - Setting next_dagrun for dataset_produces_2 to None, run_after=None
+[2026-05-18T05:32:59.420+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_datasets.py took 0.198 seconds
